@@ -89,11 +89,9 @@
     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-background" style="width: 100%; background-color: #f5f5f5;">
         <tr>
             <td align="center" style="padding: 40px 20px;">
-                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-container" style="width: 100%; max-width: 640px; background-color: #ffffff; border: 1px solid #dddddd;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-container" style="width: 100%; max-width: 640px; background-color: #ffffff; border: 1px solid #6c6eec;">
                     <tr>
                         <td style="padding: 40px;">
-                            <img src="https://ome.gs/vector/omega.svg" alt="Omega" width="180" style="display: block; width: 180px; height: auto; border: 0; margin: 0 0 30px 0;">
-
                             @yield('content')
                         </td>
                     </tr>
