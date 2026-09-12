@@ -9,14 +9,14 @@
 
     {{-- Website --}}
     <tr>
-        <td style="padding: 0 0 8px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px;">
+        <td class="email-link" style="padding: 0 0 8px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px;">
             <a href="https://ome.gs" style="color: #6c6eec; text-decoration: none;">https://ome.gs</a>
         </td>
     </tr>
 
     {{-- Separator --}}
     <tr>
-        <td style="padding: 0 0 16px 0; border-bottom: 1px solid #6c6eec;"></td>
+        <td class="email-separator" style="padding: 0 0 16px 0; border-bottom: 1px solid #6c6eec;"></td>
     </tr>
 
     {{-- Social links --}}
