@@ -61,7 +61,8 @@
             .email-container {
                 background-color: #222222 !important;
                 border-color: #444444 !important;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+                border-radius: 8px;
             }
             .email-heading {
                 color: #eeeeee !important;
