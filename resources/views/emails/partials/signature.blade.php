@@ -9,7 +9,7 @@
 
     {{-- Website --}}
     <tr>
-        <td class="email-link" style="padding: 0 0 8px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px;">
+        <td class="email-link" style="padding: 0 0 8px 0; font-family: 'Afacad', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;">
             <a href="https://ome.gs" style="color: #6c6eec; text-decoration: none;">https://ome.gs</a>
         </td>
     </tr>

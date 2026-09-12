@@ -8,12 +8,13 @@
     <meta name="supported-color-schemes" content="light dark">
 
     <title>{{ $title ?? 'Ωmega' }}</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
             color-scheme: light dark;
         }
         body {
+            font-family: 'Afacad', Arial, Helvetica, sans-serif;
             margin: 0 !important;
             padding: 0 !important;
             width: 100% !important;
