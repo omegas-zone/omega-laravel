@@ -9,7 +9,7 @@
     <tr>
         <td style="padding: 0 0 16px 0;">
             <img
-                src="{{ config('app.url') }}/images/email/omega.png"
+                src="https://ome.gs/images/email/omega.png"
                 alt="Omega"
                 width="180"
                 style="
@@ -84,7 +84,7 @@
                             title="YouTube"
                         >
                             <img
-                                src="{{ config('app.url') }}/images/email/youtube.png"
+                                src="https://ome.gs/images/email/youtube.png"
                                 alt="YouTube"
                                 width="20"
                                 height="20"
@@ -105,7 +105,7 @@
                             title="LinkedIn"
                         >
                             <img
-                                src="{{ config('app.url') }}/images/email/linkedin.png"
+                                src="https://ome.gs/images/email/linkedin.png"
                                 alt="LinkedIn"
                                 width="20"
                                 height="20"
@@ -126,7 +126,7 @@
                             title="Instagram"
                         >
                             <img
-                                src="{{ config('app.url') }}/images/email/instagram.png"
+                                src="https://ome.gs/images/email/instagram.png"
                                 alt="Instagram"
                                 width="20"
                                 height="20"
@@ -147,7 +147,7 @@
                             title="GitHub"
                         >
                             <img
-                                src="{{ config('app.url') }}/images/email/github.png"
+                                src="https://ome.gs/images/email/github.png"
                                 alt="GitHub"
                                 width="20"
                                 height="20"
@@ -168,7 +168,7 @@
                             title="SoundCloud"
                         >
                             <img
-                                src="{{ config('app.url') }}/images/email/soundcloud.png"
+                                src="https://ome.gs/images/email/soundcloud.png"
                                 alt="SoundCloud"
                                 width="20"
                                 height="20"
