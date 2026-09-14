@@ -26,8 +26,7 @@
         }
         .email-container {
             background-color: #ffffff !important;
-            border-color: #dddddd !important;
-            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+            border-color: #6c6eec !important;
         }
         .email-heading {
             color: #222222 !important;
@@ -60,9 +59,7 @@
             }
             .email-container {
                 background-color: #222222 !important;
-                border-color: #444444 !important;
                 border-radius: 8px;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
             }
             .email-heading {
                 color: #eeeeee !important;
@@ -92,7 +89,7 @@
     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-background" style="width: 100%; background-color: #f5f5f5;">
         <tr>
             <td align="center" style="padding: 40px 20px;">
-                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-container" style="width: 100%; max-width: 640px; background-color: #ffffff; border: none;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-container" style="width: 100%; max-width: 640px; background-color: #ffffff;">
                     <tr>
                         <td style="padding: 40px;">
                             @yield('content')
