@@ -3,7 +3,7 @@
 @endphp
 
 <div
-    x-data="{ open: true }"
+    x-data="{ open: false }"
     class="group"
 >
     <div
