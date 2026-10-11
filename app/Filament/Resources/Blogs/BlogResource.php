@@ -5,7 +5,7 @@ namespace App\Filament\Resources\Blogs;
 use App\Filament\Resources\Blogs\Pages\CreateBlog;
 use App\Filament\Resources\Blogs\Pages\EditBlog;
 use App\Filament\Resources\Blogs\Pages\ListBlogs;
-use App\Filament\Resources\Blogs\Tables\BlogsTable;
+use App\Filament\Resources\Blogs\Tables\BlogTable;
 use App\Models\Blog;
 use BackedEnum;
 use Filament\Actions\DeleteAction;
