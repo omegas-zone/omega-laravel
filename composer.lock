@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e98afe9822b806dd78b511c93c5a3fcd",
+    "content-hash": "cef16afad37a3c016902d364f52a29e8",
     "packages": [
+        {
+            "name": "alareqi/filament-tree",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aymanalareqi/filament-tree.git",
+                "reference": "fa235207c92ebbfc0b9ec16996dbc7931b58409b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aymanalareqi/filament-tree/zipball/fa235207c92ebbfc0b9ec16996dbc7931b58409b",
+                "reference": "fa235207c92ebbfc0b9ec16996dbc7931b58409b",
+                "shasum": ""
+            },
+            "require": {
+                "filament/actions": "^5.0",
+                "filament/forms": "^5.0",
+                "filament/support": "^5.0",
+                "filament/tables": "^5.0",
+                "php": "^8.3",
+                "spatie/laravel-package-tools": "^1.15"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Alareqi\\FilamentTree\\FilamentTreeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Alareqi\\FilamentTree\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Tree-structured Eloquent records rendered through native Filament tables.",
+            "keywords": [
+                "filament",
+                "laravel",
+                "tree-table"
+            ],
+            "support": {
+                "issues": "https://github.com/aymanalareqi/filament-tree/issues",
+                "source": "https://github.com/aymanalareqi/filament-tree/tree/1.0.2"
+            },
+            "time": "2026-09-17T23:30:06+00:00"
+        },
         {
             "name": "blade-ui-kit/blade-heroicons",
             "version": "2.7.0",

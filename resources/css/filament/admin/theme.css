@@ -2,3 +2,26 @@
 
 @source '../../../../app/Filament/**/*';
 @source '../../../../resources/views/filament/**/*';
+
+.bookmark-icon {
+    width: 1rem !important;
+    height: 1rem !important;
+    flex: 0 0 1rem;
+}
+
+.bookmark-icon-folder {
+    width: 1.25rem !important;
+    height: 1.25rem !important;
+    flex-basis: 1.25rem;
+}
+
+.bookmark-icon-action {
+    width: 1rem !important;
+    height: 1rem !important;
+    flex-basis: 1rem;
+}
+.bookmark-icon {
+    width: 16px !important;
+    height: 16px !important;
+    flex: 0 0 16px;
+}

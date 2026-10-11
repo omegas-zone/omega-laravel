@@ -1,4 +1,11 @@
 <?php return array (
+  'alareqi/filament-tree' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Alareqi\\FilamentTree\\FilamentTreeServiceProvider',
+    ),
+  ),
   'blade-ui-kit/blade-heroicons' => 
   array (
     'providers' => 

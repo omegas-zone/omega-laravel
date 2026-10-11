@@ -7,9 +7,10 @@ use Illuminate\Support\Facades\Storage;
 Route::get('/', function () {
     return view('welcome');
 });
-// Route::get('/test', function () {
-//     dd(config('livewire.temporary_file_upload.rules'));
-// });
+/*
+Route::get('/test', function () {
+    dd(config('livewire.temporary_file_upload.rules'));
+});
 Route::get('/test-track-id3/{track}', function (Track $track) {
     $path = Storage::disk('public')->path($track->file);
 
@@ -30,3 +31,22 @@ Route::get('/test-track-id3/{track}', function (Track $track) {
         'id3v2' => $info['id3v2'] ?? null,
     ]);
 });
+Route::get('/test-confirmation', function () {
+    $contact = [
+        'name' => 'Test User',
+        'email' => 'test@example.com',
+        'message' => "This is a test message.\nWith multiple lines.",
+    ];
+
+    return new ContactConfirmation($contact);
+});
+Route::get('/test-message', function () {
+    $contact = [
+        'name' => 'Test User',
+        'email' => 'test@example.com',
+        'message' => "This is a test message.\nWith multiple lines.",
+    ];
+
+    return new ContactMessage($contact);
+});
+*/
