@@ -43,9 +43,16 @@ class Bookmarks extends Page
         return $folders
             ->where('parent_id', $parentId)
             ->map(function (BookmarkFolder $folder) use ($folders): BookmarkFolder {
+                $children = $this->buildBranch($folders, $folder->id);
+
+                $folder->setAttribute('tree_children', $children);
                 $folder->setAttribute(
-                    'tree_children',
-                    $this->buildBranch($folders, $folder->id),
+                    'tree_bookmark_count',
+                    $folder->bookmarkLinks->count()
+                        + $children->sum(
+                            fn (BookmarkFolder $child): int =>
+                                (int) $child->getAttribute('tree_bookmark_count')
+                        ),
                 );
 
                 return $folder;

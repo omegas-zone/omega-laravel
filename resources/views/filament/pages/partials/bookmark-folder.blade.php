@@ -30,7 +30,7 @@
         </a>
 
         <span class="text-xs text-gray-400 dark:text-gray-500">
-            {{ $folder->bookmarkLinks->count() }}
+            {{ $folder->tree_bookmark_count }}
         </span>
 
         <div class="hidden shrink-0 items-center gap-1 group-hover:flex">
